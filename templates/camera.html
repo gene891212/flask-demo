@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>相機畫面串流</title>
+</head>
+
+<body>
+    <h1>相機畫面串流</h1>
+    <img style="display: block;margin: auto;background-color: hsl(0, 0%, 25%);"
+        src="{{ url_for('video_feed') }}"
+        width="80%"
+        alt="Camera Stream">
+    <a href="{{ url_for('index' )}}">回到感測器畫面</a>
+</body>
+
+</html>
